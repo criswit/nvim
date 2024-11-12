@@ -101,6 +101,7 @@ with final.pkgs.lib; let
     stylua
     alejandra
     ripgrep
+    bash-language-server
   ];
 in {
   # This is the neovim derivation
