@@ -20,6 +20,7 @@ local config = function()
 			"jdtls",
 			"nil_ls",
 			"bashls",
+			"jsonls",
 		},
 	})
 

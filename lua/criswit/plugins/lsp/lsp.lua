@@ -47,6 +47,9 @@ local config = function()
 		lspconfig["bashls"].setup({
 			capabilities = capabilities,
 		}),
+		lspconfig["jsonls"].setup({
+			capabilities = capabilities,
+		}),
 	})
 
 	lsp_attach()
